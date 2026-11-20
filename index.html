@@ -145,7 +145,7 @@ header.barra a:hover{color:var(--hueso)}
 .wk__b i:first-of-type{border-radius:5px 5px 0 0}
 .wk__b b{position:absolute;bottom:calc(100% + 6px);left:0;right:0;text-align:center;font-family:var(--tit);font-size:20px;letter-spacing:-.03em;line-height:1}
 .wk__c--hoy .wk__b b{color:var(--naranja)}
-.s-tt{background:var(--gris-2)} .s-ig{background:var(--hueso)} .s-ab{background:var(--naranja)}
+.s-tt{background:var(--gris-2)} .s-ig{background:var(--hueso)} .s-ab{background:var(--naranja)} .s-bk{background:rgba(255,77,0,.45)}
 .wk__c:hover .wk__b{filter:brightness(1.15)}
 .wk__e{position:absolute;top:calc(100% + 8px);left:0;right:0;text-align:center;font-size:12px;color:var(--gris);white-space:nowrap}
 .wk__c--hoy .wk__e{color:var(--hueso);font-weight:600}
@@ -191,16 +191,16 @@ header.barra a:hover{color:var(--hueso)}
 <section class="tapa">
   <span class="rot">TikTok · Instagram · Airbnb · Booking — 9 de octubre al 19 de noviembre</span>
   <h1>Noviembre<br>en una pantalla</h1>
-  <p>Entraron <b>108 consultas</b> en seis semanas y llegó <b>la primera reserva por Booking</b>.
+  <p>Entraron <b>136 consultas</b> en seis semanas y llegó <b>la primera reserva por Booking</b>.
   Lo que cambió: <b>Instagram ya trae casi tanto como TikTok</b> y la última semana fue la mejor desde septiembre.
-  Lo que hay que mirar: <b>tardamos casi un día en contestar los comentarios</b>.</p>
+  Lo que hay que mirar: <b>tardamos casi un día en contestar</b>, y en Booking se vencieron dos consultas que nadie contestó.</p>
 </section>
 
 <section class="kpis" aria-label="Números principales">
   <div class="kpi">
-    <div class="kpi__n">108</div>
+    <div class="kpi__n">136</div>
     <div class="kpi__q">Consultas</div>
-    <div class="kpi__x">61 TikTok · 46 Instagram · 1 Airbnb</div>
+    <div class="kpi__x">85 TikTok · 46 Instagram · 4 Booking · 1 Airbnb</div>
   </div>
   <div class="kpi kpi--nar">
     <div class="kpi__n">22 h</div>
@@ -208,9 +208,9 @@ header.barra a:hover{color:var(--hueso)}
     <div class="kpi__x">El mes pasado eran 11 h</div>
   </div>
   <div class="kpi kpi--nar">
-    <div class="kpi__n">7</div>
+    <div class="kpi__n">11</div>
     <div class="kpi__q">Sin respuesta</div>
-    <div class="kpi__x">En TikTok, ni en el comentario ni por privado</div>
+    <div class="kpi__x">En TikTok: 7 comentarios y 4 mensajes privados</div>
   </div>
   <div class="kpi">
     <div class="kpi__n">1</div>
@@ -221,12 +221,13 @@ header.barra a:hover{color:var(--hueso)}
 
 <section class="card" aria-labelledby="t-sem">
   <span class="rot">01 · Cuándo consultaron</span>
-  <h2 id="t-sem">La última semana trajo 39 consultas, la mejor desde septiembre</h2>
+  <h2 id="t-sem">La última semana trajo 49 consultas, la mejor desde septiembre</h2>
   <p class="sub">Consultas por semana, por canal. Pasá el mouse por una barra para ver el detalle.</p>
-  <div class="wk" id="wk" role="img" aria-label="Consultas por semana: 9 al 15 de octubre 5, 16 al 22 de octubre 7, 23 al 29 de octubre 22, 30 de octubre al 5 de noviembre 15, 6 al 12 de noviembre 20, 13 al 19 de noviembre 39."></div>
+  <div class="wk" id="wk" role="img" aria-label="Consultas por semana: 9 al 15 de octubre 8, 16 al 22 de octubre 8, 23 al 29 de octubre 25, 30 de octubre al 5 de noviembre 19, 6 al 12 de noviembre 27, 13 al 19 de noviembre 49."></div>
   <div class="ley ley--fila">
     <span><i style="background:var(--gris-2)"></i>TikTok</span>
     <span><i style="background:var(--hueso)"></i>Instagram</span>
+    <span><i style="background:rgba(255,77,0,.45)"></i>Booking</span>
     <span><i style="background:var(--naranja)"></i>Airbnb</span>
   </div>
   <p class="nota"><b>En octubre las consultas venían bajando</b> (22 y 14 por semana en el reporte anterior).
@@ -237,31 +238,38 @@ header.barra a:hover{color:var(--hueso)}
 
 <section class="card" aria-labelledby="t-resp">
   <span class="rot">02 · Cuánto tardamos</span>
-  <h2 id="t-resp">Contestar tarde nos costó otra consulta en Airbnb</h2>
+  <h2 id="t-resp">Tardamos casi un día en contestar, y eso nos costó consultas</h2>
   <p class="sub">Desde que llega la consulta hasta la primera respuesta.</p>
-  <div class="bh" role="img" aria-label="Tiempo promedio de respuesta: comentarios de TikTok 22 horas, Airbnb 15 horas.">
-    <div class="bh__f"><span class="bh__e">TikTok<small>38 comentarios</small></span><span class="bh__p"><i class="bh__i bh__i--nar" style="width:100%"></i></span><span class="bh__n">22 h</span></div>
+  <div class="bh" role="img" aria-label="Tiempo promedio de respuesta: mensajes privados de TikTok 23 horas, comentarios de TikTok 22 horas, Airbnb 15 horas, Booking 8 horas en las 3 que se contestaron; 2 de 5 consultas de Booking no se contestaron.">
+    <div class="bh__f"><span class="bh__e">TikTok privados<small>20 chats</small></span><span class="bh__p"><i class="bh__i bh__i--nar" style="width:100%"></i></span><span class="bh__n">23 h</span></div>
+    <div class="bh__f"><span class="bh__e">TikTok comentarios<small>38 comentarios</small></span><span class="bh__p"><i class="bh__i bh__i--nar" style="width:97%"></i></span><span class="bh__n">22 h</span></div>
     <div class="bh__f"><span class="bh__e">Airbnb<small>1 consulta</small></span><span class="bh__p"><i class="bh__i bh__i--nar" style="width:68%"></i></span><span class="bh__n">15 h</span></div>
+    <div class="bh__f"><span class="bh__e">Booking<small>3 de 5 contestadas</small></span><span class="bh__p"><i class="bh__i bh__i--nar" style="width:37%"></i></span><span class="bh__n">8 h</span></div>
   </div>
-  <p class="nota"><b>Solo 2 de 38 comentarios</b> se contestaron en menos de 1 hora; la mitad esperó más de 16 h.
-  En Airbnb preguntaron por el 18 al 21 de diciembre (5 personas): la respuesta llegó 15 h después,
-  la invitación venció y <b>no reservaron</b>.</p>
+  <p class="nota"><b>En TikTok, solo 4 de 58 consultas</b> (comentarios y privados) se contestaron en menos de 1 hora; la mitad esperó más de 12 h.
+  <b>En Booking, 2 consultas no tuvieron respuesta</b> y se vencieron solas: el 11 nov («¿Se alquila?», 6 al 9 feb)
+  y el 14 nov (18 al 21 dic, 9 personas). Esa familia volvió a escribir al otro día, le contestamos 12 h después y tampoco reservó.
+  Por esas mismas fechas preguntaron en Airbnb (15 h de demora, <b>no reservaron</b>): parece la misma familia probando por los dos lados.</p>
 </section>
 
 <section class="card" aria-labelledby="t-pend">
   <span class="rot">03 · Quedaron sin contestar</span>
   <h2 id="t-pend">Hay que escribirles hoy</h2>
-  <p class="sub">Comentaron pidiendo info y no tuvieron respuesta ni en el comentario ni por privado.</p>
+  <p class="sub">Pidieron info en TikTok y nadie les contestó, ni en el comentario ni por privado.</p>
   <ul class="pend">
-    <li><span class="f">15 nov</span><span>«precio»</span><span class="c">TikTok</span></li>
-    <li><span class="f">14 nov</span><span>«Precio»</span><span class="c">TikTok</span></li>
-    <li><span class="f">5 nov</span><span>«cómo me contacto»</span><span class="c">TikTok</span></li>
-    <li><span class="f">31 oct</span><span>«Info»</span><span class="c">TikTok</span></li>
-    <li><span class="f">30 oct</span><span>«precio»</span><span class="c">TikTok</span></li>
-    <li><span class="f">28 oct</span><span>Preguntó si había fecha disponible</span><span class="c">TikTok</span></li>
-    <li><span class="f">24 oct</span><span>«precio por favor»</span><span class="c">TikTok</span></li>
+    <li class="hoy"><span class="f">19 nov</span><span>«Cuánto por día»</span><span class="c">Privado</span></li>
+    <li class="hoy"><span class="f">19 nov</span><span>Precio para dos parejas</span><span class="c">Privado</span></li>
+    <li class="hoy"><span class="f">19 nov</span><span>Del 27 al 29 nov, 6 personas</span><span class="c">Privado</span></li>
+    <li><span class="f">15 nov</span><span>«precio»</span><span class="c">Comentario</span></li>
+    <li><span class="f">14 nov</span><span>«Precio»</span><span class="c">Comentario</span></li>
+    <li><span class="f">5 nov</span><span>«cómo me contacto»</span><span class="c">Comentario</span></li>
+    <li><span class="f">31 oct</span><span>«Info»</span><span class="c">Comentario</span></li>
+    <li><span class="f">30 oct</span><span>«precio»</span><span class="c">Comentario</span></li>
+    <li><span class="f">28 oct</span><span>Preguntó si había fecha disponible</span><span class="c">Comentario</span></li>
+    <li><span class="f">24 oct</span><span>«precio por favor»</span><span class="c">Comentario</span></li>
+    <li><span class="f">23 oct</span><span>Precio para 2 adultos y un nene</span><span class="c">Privado</span></li>
   </ul>
-  <p class="nota"><b>Además, revisar 3 chats de Instagram</b> donde el último mensaje es del cliente
+  <p class="nota"><b>Los 3 privados del 19 nov están en «Solicitudes de mensajes»</b>: hay que aceptarlos para poder contestar. <b>Además, revisar 3 chats de Instagram</b> donde el último mensaje es del cliente
   (12 nov: «Somos 6 adultos y 2 nenas…», 6 nov y 24 oct).</p>
 </section>
 
@@ -277,7 +285,7 @@ header.barra a:hover{color:var(--hueso)}
     <div class="bh__f"><span class="bh__e">Quinta en SP<small>30 sep</small></span><span class="bh__p"><i class="bh__i" style="width:16%"></i></span><span class="bh__n">3</span></div>
     <div class="bh__f"><span class="bh__e">Otros 4 videos<small>sep a oct</small></span><span class="bh__p"><i class="bh__i" style="width:37%"></i></span><span class="bh__n">7</span></div>
   </div>
-  <p class="nota">Aparte hubo <b>23 chats privados en TikTok</b> que no vienen de un comentario; no se cuentan como consultas porque no se abrieron uno por uno.</p>
+  <p class="nota">Aparte, <b>24 consultas llegaron directo por privado</b> en TikTok, sin comentar antes. No están en este gráfico porque no se sabe de qué video vinieron.</p>
 </section>
 
 <section class="card" aria-labelledby="t-ig">
@@ -306,6 +314,8 @@ header.barra a:hover{color:var(--hueso)}
     <div><b>9,0</b><span>primera reseña en Booking (la media de la zona es 9,2)</span></div>
     <div><b>91 %</b><span>puntaje de la página de Booking · la zona promedia 81 %</span></div>
     <div><b>0</b><span>reservas nuevas en Airbnb · siguen las de 21 al 23 nov (llegan mañana) y 9 al 14 dic</span></div>
+    <div><b>US$900</b><span>en consultas de Booking que se vencieron sin respuesta · 6 al 9 feb y 18 al 21 dic, <em>US$450 cada una</em></span></div>
+    <div><b>1 de 4</b><span>consultas de Booking terminó en reserva: la del 7 al 9 nov, contestada en 12 h</span></div>
   </div>
   <p class="nota"><b>Booking avisa que convertimos menos que alojamientos parecidos de la zona</b> y pide fotos del baño y de la cocina.</p>
 </section>
@@ -328,8 +338,8 @@ header.barra a:hover{color:var(--hueso)}
   <span class="rot">08 · Qué hacemos</span>
   <h2 id="t-pasos" style="margin-bottom:18px">Cuatro cosas para estas semanas</h2>
   <ol class="pasos">
-    <li><span class="n">01</span><h3>Contestar las 7 pendientes</h3><p>Y mirar los 3 chats de Instagram que quedaron con la última palabra del cliente.</p></li>
-    <li><span class="n">02</span><h3>Responder en menos de 1 hora</h3><p>La respuesta con precios ya está armada: es pegarla. La demora nos sacó otra reserva en Airbnb.</p></li>
+    <li><span class="n">01</span><h3>Contestar las 11 pendientes</h3><p>Primero las 3 solicitudes de TikTok del 19 nov. Y mirar los 3 chats de Instagram que quedaron con la última palabra del cliente.</p></li>
+    <li><span class="n">02</span><h3>Responder en menos de 1 hora</h3><p>La respuesta con precios ya está armada: es pegarla, también en Booking. La demora nos sacó reservas en Booking y en Airbnb.</p></li>
     <li><span class="n">03</span><h3>Más pileta con sol</h3><p>Un reel por semana con la pileta y el calor, en Instagram y en TikTok a la vez.</p></li>
     <li><span class="n">04</span><h3>Fotos del baño y la cocina en Booking</h3><p>Es lo que pide para mostrarnos más. Ya tenemos reseña y buen puntaje.</p></li>
   </ol>
@@ -339,7 +349,7 @@ header.barra a:hover{color:var(--hueso)}
   <span class="rot">Historial</span>
   <h2 id="t-hist" style="margin-bottom:18px">Todos los reportes</h2>
   <ol class="hist">
-    <li class="hist--hoy"><span class="hist__m">Noviembre 2026</span><span class="hist__f">9 de octubre al 19 de noviembre</span><span class="hist__r">108 consultas · 1 reserva en Booking</span><span class="hist__a">Estás acá</span></li>
+    <li class="hist--hoy"><span class="hist__m">Noviembre 2026</span><span class="hist__f">9 de octubre al 19 de noviembre</span><span class="hist__r">136 consultas · 1 reserva en Booking</span><span class="hist__a">Estás acá</span></li>
     <li><a href="2026-10.html"><span class="hist__m">Octubre 2026</span><span class="hist__f">11 de septiembre al 8 de octubre</span><span class="hist__r">135 consultas · 2 reservas en Airbnb</span><span class="hist__a">Ver →</span></a></li>
     <li><a href="2026-09.html"><span class="hist__m">Septiembre 2026</span><span class="hist__f">7 de agosto al 5 de septiembre</span><span class="hist__r">Primer mes de la cuenta reactivada y propuesta</span><span class="hist__a">Ver →</span></a></li>
   </ol>
@@ -350,23 +360,26 @@ header.barra a:hover{color:var(--hueso)}
 <footer class="env pie">
   <p>Datos mirados el 20 de noviembre de 2026 en TikTok Studio (9 oct al 19 nov), Meta Business Suite (Instagram, mismo rango),
   la bandeja de Airbnb y el extranet de Booking. Consulta = alguien que pide info, precio o fechas. En TikTok se leyeron los
-  comentarios de todos los videos y se cruzaron con los chats privados por nombre. En Instagram se cuentan los chats con
+  comentarios de todos los videos y se cruzaron con los chats privados por nombre; además se abrieron los 54 chats privados
+  y las solicitudes pendientes, y se contaron los que empezó el cliente sin comentar antes (24; un mensaje que la web no muestra no se cuenta). En Instagram se cuentan los chats con
   actividad en el período (sin marcas ni proveedores) y la semana es la del último mensaje. El tiempo de respuesta de
-  Instagram no se pudo medir: la bandeja no muestra la hora del primer mensaje.</p>
+  Instagram no se pudo medir: la bandeja no muestra la hora del primer mensaje. En Booking se abrieron las 5 consultas
+  previas a reservar del período; las dos del 14 y 15 nov son la misma familia y cuentan como una. La respuesta se mide
+  hasta el primer mensaje escrito.</p>
 </footer>
 
 <div class="tip" id="tip"></div>
 <script>
 (function(){
-  // [semana, TikTok, Instagram, Airbnb]
-  var W=[["9–15 oct",5,0,0],["16–22 oct",4,3,0],["23–29 oct",7,15,0],["30 oct–5 nov",13,2,0],["6–12 nov",10,10,0],["13–19 nov",22,16,1]];
-  var max=40, wk=document.getElementById('wk'), tip=document.getElementById('tip');
+  // [semana, TikTok, Instagram, Airbnb, Booking, TikTok privados (ya incluidos en TikTok)]
+  var W=[["9–15 oct",8,0,0,0,3],["16–22 oct",5,3,0,0,1],["23–29 oct",9,15,0,1,2],["30 oct–5 nov",16,2,0,1,3],["6–12 nov",16,10,0,1,6],["13–19 nov",31,16,1,1,9]];
+  var max=50, wk=document.getElementById('wk'), tip=document.getElementById('tip');
   W.forEach(function(w,i){
-    var t=w[1]+w[2]+w[3], c=document.createElement('div'); c.className='wk__c'+(i===W.length-1?' wk__c--hoy':'');
+    var t=w[1]+w[2]+w[3]+w[4], c=document.createElement('div'); c.className='wk__c'+(i===W.length-1?' wk__c--hoy':'');
     c.innerHTML='<div class="wk__b" style="height:'+(t/max*100)+'%"><b>'+t+'</b>'
-      +(w[3]?'<i class="s-ab" style="flex:'+w[3]+'"></i>':'')+(w[2]?'<i class="s-ig" style="flex:'+w[2]+'"></i>':'')+'<i class="s-tt" style="flex:'+w[1]+'"></i></div>'
+      +(w[3]?'<i class="s-ab" style="flex:'+w[3]+'"></i>':'')+(w[4]?'<i class="s-bk" style="flex:'+w[4]+'"></i>':'')+(w[2]?'<i class="s-ig" style="flex:'+w[2]+'"></i>':'')+'<i class="s-tt" style="flex:'+w[1]+'"></i></div>'
       +'<span class="wk__e">'+w[0]+'</span>';
-    var det=['TikTok '+w[1]]; if(w[2])det.push('Instagram '+w[2]); if(w[3])det.push('Airbnb '+w[3]);
+    var det=['TikTok '+w[1]+(w[5]?' ('+w[5]+' por privado)':'')]; if(w[2])det.push('Instagram '+w[2]); if(w[4])det.push('Booking '+w[4]); if(w[3])det.push('Airbnb '+w[3]);
     c.dataset.tip='<b>'+w[0]+' · '+t+' consultas</b><br>'+det.join(' · ');
     wk.appendChild(c);
   });
